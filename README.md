@@ -128,54 +128,40 @@ As variáveis foram selecionadas com base no método estatístico Information Va
 
 A variável Total de Compras foi excluída da análise por apresentar uma redundância conceitual com Ticket Médio e Total Gasto (MnTotal), sendo estas mantidas por representarem o valor econômico do cliente.
 
-<br>
-<div align="center">
 <img width="625" height="362" alt="image" src="https://github.com/user-attachments/assets/cf639e1c-7578-4e7e-8656-56d56a604ca1" />
-</div>
+
 
 ## Desenvolvimento do Estudo
 O estudo foi desenvolvido a partir da relação direta entre cada dimensão e a aceitação da campanha (Response). O objetivo foi quantificar diferenças de comportamento, identificar segmentos de maior probabilidade de conversão e preparar o terreno para a avaliação financeira da campanha.
 
 ### Total Gasto por Cliente (MnTotal)
 
-<br>
-<div align="center">
 <img width="650" height="390" alt="image" src="https://github.com/user-attachments/assets/362a81ab-0bbf-4ea9-87f4-38bd38bcb202" />
-</div>
-<br>
+<br><br>
 
 * Aceitação cresce exponencialmente com gasto histórico.
 * Clientes com maior valor histórico de gasto respondem melhor à campanha.
 
 ### Ticket Médio
 
-<br>
-<div align="center">
 <img width="644" height="348" alt="image" src="https://github.com/user-attachments/assets/0b640d48-9ec0-4d9e-b4b7-918b82af23ef" />
-</div>
-<br>
+<br><br>
 
 * Aumento expressivo na taxa de aceitação à medida que o ticket médio cresce.
 * Clientes com ticket médio mais elevado, ainda que em menor volume, tendem a converter mais.
 
 ### Recência de Compras
 
-<br>
-<div align="center">
 <img width="646" height="348" alt="image" src="https://github.com/user-attachments/assets/23111646-d428-454e-bcdd-5ef5b1a3ec87" />
-</div>
-<br>
+<br><br>
 
 * Aumento expressivo na taxa de aceitação à medida que o ticket médio cresce.
 * Clientes com ticket médio mais elevado, ainda que em menor volume, tendem a converter mais.
 
 ### Canal de Compra
 
-<br>
-<div align="center">
 <img width="648" height="347" alt="image" src="https://github.com/user-attachments/assets/6b894b22-ab07-42a1-8a7a-80d771fae5b7" />
-</div>
-<br>
+<br><br>
 
 * Trade-off entre volume e taxa de aceitaçãopesar do maior volume.
 * Store concentra a maior parte dos clientes, porém os canais Catalog e Web apresentam maiores taxas de resposta.
@@ -183,11 +169,8 @@ O estudo foi desenvolvido a partir da relação direta entre cada dimensão e a 
 
 ### Estado Civil
 
-<br>
-<div align="center">
 <img width="648" height="351" alt="image" src="https://github.com/user-attachments/assets/32799336-292f-46c1-989d-478d3e44632a" />
-</div>
-<br>
+<br><br>
 
 * Perfis não familiares parecem mais sujeitos à aceitação.
 * Casados e "juntos" representam mais da metade da base (65%), mas apresentam baixa taixa de aceitação.
