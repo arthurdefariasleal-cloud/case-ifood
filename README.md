@@ -95,6 +95,102 @@ A EDA teve com objetivo compreender a composição da base antes de avanças par
 Busquei explorar apenas variáveis que considerei mais representativas em diferentes dimensões do problema (comportamental, demográfica, operacionais e financeiras). Não houve a intenção de analisar todas as variáveis, mas de entender quem são os clientes, como compram e com que frequência compram, levantando hipóteses iniciais.
 
 As análises de relação com a aceitação da campanha e a priorização de variáveis foram conduzidas em etapas posteriores por meio de métodos estatísticos.
+<br><br>
 
 <img width="1618" height="715" alt="image" src="https://github.com/user-attachments/assets/63fd1dc6-14cf-40f4-8f2a-a87442580bc8" />
+<br><br>
+
+Resumo da base + insights:
+* Familiar
+* Madura
+* De ticket médio baixo
+* Dependente do canal físico
+* Com parcela relevante inativa
+
+## Hipóteses de Negócio
+1. Clientes mais recentes devem apresentar maior propensão a resposta.
+2. Clientes de maior gasto acumulado devem concentrar maior taxa de aceitação.
+3. Canais digitais podem apresentar melhor desempenho para campanhas.
+4. Perfis familiares podem responder melhor à campanha.
+
+# Preparação dos Dados
+Esta etapa envolveu:
+* Validação de tipos e consistências das variáveis.
+* Criação de métricas derivadas (ex.: id, ticket médio, total de compras, canal predominante, estado civil).
+* Construção de faixas (binning) para variáveis contínuas.
+* Tratamento de outiliers e amostras de baixo volume.
+* Definição explícita de fato, dimensões e variável-alvo.
+
+# Modelagem
+## Método Estatístico para Priorização das Variáveis
+
+As variáveis foram selecionadas com base no método estatístico Information Value (IV), com o objetivo de priorizar aquelas com poder de separação forte e moderado. 
+
+A variável Total de Compras foi excluída da análise por apresentar uma redundância conceitual com Ticket Médio e Total Gasto (MnTotal), sendo estas mantidas por representarem o valor econômico do cliente.
+
+<br>
+<div align="center">
+<img width="625" height="362" alt="image" src="https://github.com/user-attachments/assets/cf639e1c-7578-4e7e-8656-56d56a604ca1" />
+</div>
+
+## Desenvolvimento do Estudo
+O estudo foi desenvolvido a partir da relação direta entre cada dimensão e a aceitação da campanha (Response). O objetivo foi quantificar diferenças de comportamento, identificar segmentos de maior probabilidade de conversão e preparar o terreno para a avaliação financeira da campanha.
+
+### Total Gasto por Cliente (MnTotal)
+
+<br>
+<div align="center">
+<img width="650" height="390" alt="image" src="https://github.com/user-attachments/assets/362a81ab-0bbf-4ea9-87f4-38bd38bcb202" />
+</div>
+<br>
+
+* Aceitação cresce exponencialmente com gasto histórico.
+* Clientes com maior valor histórico de gasto respondem melhor à campanha.
+
+### Ticket Médio
+
+<br>
+<div align="center">
+<img width="644" height="348" alt="image" src="https://github.com/user-attachments/assets/0b640d48-9ec0-4d9e-b4b7-918b82af23ef" />
+</div>
+<br>
+
+* Aumento expressivo na taxa de aceitação à medida que o ticket médio cresce.
+* Clientes com ticket médio mais elevado, ainda que em menor volume, tendem a converter mais.
+
+### Recência de Compras
+
+<br>
+<div align="center">
+<img width="646" height="348" alt="image" src="https://github.com/user-attachments/assets/23111646-d428-454e-bcdd-5ef5b1a3ec87" />
+</div>
+<br>
+
+* Aumento expressivo na taxa de aceitação à medida que o ticket médio cresce.
+* Clientes com ticket médio mais elevado, ainda que em menor volume, tendem a converter mais.
+
+### Canal de Compra
+
+<br>
+<div align="center">
+<img width="648" height="347" alt="image" src="https://github.com/user-attachments/assets/6b894b22-ab07-42a1-8a7a-80d771fae5b7" />
+</div>
+<br>
+
+* Trade-off entre volume e taxa de aceitaçãopesar do maior volume.
+* Store concentra a maior parte dos clientes, porém os canais Catalog e Web apresentam maiores taxas de resposta.
+* Maior volume compensa menor taxa de aceitação?
+
+### Estado Civil
+
+<br>
+<div align="center">
+<img width="648" height="351" alt="image" src="https://github.com/user-attachments/assets/32799336-292f-46c1-989d-478d3e44632a" />
+</div>
+<br>
+
+* Perfis não familiares parecem mais sujeitos à aceitação.
+* Casados e "juntos" representam mais da metade da base (65%), mas apresentam baixa taixa de aceitação.
+
+
 
