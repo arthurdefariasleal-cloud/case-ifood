@@ -25,69 +25,7 @@ Para transformar estes dados em análises, as variáveis foram organizadas em 3 
 2. Comportamento de Compra - "Como ele consome"
 3. Engajamento com Marketing - "Como ele responde às campanhas"
 
-### 1. Perfil Demográfico (Quem é o cliente)
-**Dados socioeconômicos:**
-* Income
-* Age
-
-**Estrutura Familiar:**
-* Kidhome
-* Teenhome
-
-**Estado Civil:**
-* maritial_Divorced
-* marital_Married
-* marital_Single
-* marital_Together
-* marital_Widow
-
-**Escolaridade:**
-* education_2n Cycle
-* education_Basic
-* education_Graduation
-* education_Master
-* education_PhD
-
-### 2. Comportamento de Compra (Como ele consume)
-**Recência e relacionamento:**
-* Recency
-* Customer_Days
-
-**Gasto por categorias:**
-* MntWines
-* MntFruits
-* MntMeatProducts
-* MntFishProducts
-* MntSweetProducts
-* MntGoldProds
-
-**Variáveis agregadas de gasto:**
-* MntTotal
-* MntRegularProds
-
-**Frequência de compra por canal:**
-* NumDealsPurchases
-* NumWebPurchases
-* NumCatalogPurchases
-* NumStorePurchases
-
-**Engajamento Digital:**
-* NumWebVisitMonth
-
-### 3. Engajamento com Marketing
-**Histórico de campanhas:**
-* AcceptedCmp1
-* AcceptedCmp2
-* AcceptedCmp3
-* AcceptedCmp4
-* AcceptedCmp5
-* AcceptedCmpOverall
-
-**Target principal:**
-* Response
-
-**Satisfação:**
-* Complain
+<img width="395" height="745" alt="image" src="https://github.com/user-attachments/assets/17c30bc5-e3fa-42e4-a26e-2bf560f9eac9" />
 
 ## Análise Exploratória (EDA)
 A EDA teve com objetivo compreender a composição da base antes de avanças para a análise. O foco aqui é identificar padrões, concentrações e possíveis viéses. 
