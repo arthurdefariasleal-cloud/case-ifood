@@ -44,12 +44,6 @@ Resumo da base:
 * Dependente do canal físico
 * Com parcela relevante inativa
 
-## Hipóteses de Negócio
-1. Clientes mais recentes devem apresentar maior propensão a resposta.
-2. Clientes de maior gasto acumulado devem concentrar maior taxa de aceitação.
-3. Canais digitais podem apresentar melhor desempenho para campanhas.
-4. Perfis familiares podem responder melhor à campanha.
-
 # Preparação dos Dados
 Esta etapa envolveu:
 * Validação de tipos e consistências das variáveis.
@@ -67,8 +61,7 @@ A variável Total de Compras foi excluída da análise por apresentar uma redund
 
 <img width="625" height="362" alt="image" src="https://github.com/user-attachments/assets/cf639e1c-7578-4e7e-8656-56d56a604ca1" />
 
-
-## Desenvolvimento do Estudo
+## Fato (Response) x Dimensões
 O estudo foi desenvolvido a partir da relação direta entre cada dimensão e a aceitação da campanha (Response). O objetivo foi quantificar diferenças de comportamento, identificar segmentos de maior probabilidade de conversão e preparar o terreno para a avaliação financeira da campanha.
 
 ### Total Gasto por Cliente (MnTotal)
@@ -122,12 +115,10 @@ O estudo foi desenvolvido a partir da relação direta entre cada dimensão e a 
 * Padrão consistente de trade-off entre volume e eficiência em todas as dimensões (canal, estado civil, gasto total e ticket médio)
 * A decisão deve ser orientada por lucro esperado por segmento.
 
-### Segmentação
-Nesta etapa do estudo, os clientes foram segmentos de acordo com recência, gasto total e ticket-médio.
+## Segmentação
+Nesta etapa do estudo, os clientes foram segmentos de acordo com recência, gasto total e ticket-médio. Para cada segmento, foram calculados o total de clientes contactados, aceitação da campanha e o lucro esperado. 
 
-Para cada segmento, foram calculados o total de clientes contactados, aceitação da campanha e o lucro esperado.
-
-Ao final, a modelagem do estudo resultou em um conjunto claro e segmentos prioritários para o alvo da campanha.
+Ao final, o modelo resultou em um conjunto claro e segmentos prioritários para o alvo da campanha.
 
 # Avaliação dos Resultados (Cenário Pré x Cenário Pós Estudo)
 Nesta etapa, comparo o desempenho financeiro da campanha piloto (pré-estudo) com o cenário pós-estudo.
