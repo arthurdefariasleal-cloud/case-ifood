@@ -25,7 +25,7 @@ Para transformar estes dados em análises, as variáveis foram organizadas em 3 
 2. Comportamento de Compra - "Como ele consome"
 3. Engajamento com Marketing - "Como ele responde às campanhas"
 
-<img width="392" height="745" alt="image" src="https://github.com/user-attachments/assets/87537ec5-1cc8-42a6-bcb9-760a2e00b9de" />
+<img width="391" height="739" alt="image" src="https://github.com/user-attachments/assets/ac01653e-2fbd-4c57-b80b-bd311161210b" />
 
 ## Análise Exploratória (EDA)
 A EDA teve com objetivo compreender a composição da base antes de avanças para a análise. O foco aqui é identificar padrões, concentrações e possíveis viéses. 
