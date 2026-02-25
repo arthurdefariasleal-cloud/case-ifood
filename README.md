@@ -72,46 +72,55 @@ A variável Total de Compras foi excluída da análise por apresentar uma redund
 ## Desenvolvimento do Estudo
 O estudo foi desenvolvido a partir da relação direta entre cada dimensão e a aceitação da campanha (Response). O objetivo foi quantificar diferenças de comportamento, identificar segmentos de maior probabilidade de conversão e preparar o terreno para a avaliação financeira da campanha.
 
-### Total Gasto por Cliente (MnTotal)
+### Total Gasto por Cliente (MnTotal) - OK
 
-<img width="650" height="390" alt="image" src="https://github.com/user-attachments/assets/362a81ab-0bbf-4ea9-87f4-38bd38bcb202" />
+<img width="648" height="349" alt="image" src="https://github.com/user-attachments/assets/49e08134-41d4-475f-b38f-808a4abd94cf" />
 <br><br>
 
 * Aceitação cresce exponencialmente com gasto histórico.
-* Clientes com maior valor histórico de gasto respondem melhor à campanha.
+* Taxa cresce de 8% (R$0-100) para 45% (+R$1.500), mais de 5x maior.
+* Trade-off entre volume e conversão: maior volume concentrado nas faixas de menor gasto e maior conversão nas faixas maiores.
+* Clientes de alto gasto + maior chance de resposta -> maior lucro por contato.
 
-### Ticket Médio
+### Ticket Médio - OK
 
 <img width="644" height="348" alt="image" src="https://github.com/user-attachments/assets/0b640d48-9ec0-4d9e-b4b7-918b82af23ef" />
 <br><br>
 
 * Aumento expressivo na taxa de aceitação à medida que o ticket médio cresce.
-* Clientes com ticket médio mais elevado, ainda que em menor volume, tendem a converter mais.
+* Trade-off entre volume e conversão: maior volume concentrado na faixa de baixo ticket médio e maior conversão na faixa de alto ticket médio.
+* Clientes de alto ticket médio + maior chance de resposta -> maior lucro por contato.
 
-### Recência de Compras
+### Recência de Compras - OK
 
 <img width="646" height="348" alt="image" src="https://github.com/user-attachments/assets/23111646-d428-454e-bcdd-5ef5b1a3ec87" />
 <br><br>
 
-* Aumento expressivo na taxa de aceitação à medida que o ticket médio cresce.
-* Clientes com ticket médio mais elevado, ainda que em menor volume, tendem a converter mais.
+* Queda consistente de aceitação à medida que o tempo desde a última compra aumenta.
+* Clientes com recência de até 15 dias têm 30% de aceitação (2x a média geral de aceitação)
+* Clientes com recência de 16-45 dias têm aceitação próxima a media geral. A partir do 46º dia observa-se uma queda consistente até chegar em 7% (99 dias).
 
-### Canal de Compra
+### Canal de Compra - OK
 
 <img width="648" height="347" alt="image" src="https://github.com/user-attachments/assets/6b894b22-ab07-42a1-8a7a-80d771fae5b7" />
 <br><br>
 
-* Trade-off entre volume e taxa de aceitaçãopesar do maior volume.
-* Store concentra a maior parte dos clientes, porém os canais Catalog e Web apresentam maiores taxas de resposta.
-* Maior volume compensa menor taxa de aceitação?
+* Catalog apresenta a maior eficiência em aceitação.
+* Trade-off muito forte entre Catalog e Store: volume x aceitação.
+* Store concentra escala, mas tem baixa aceitação (10%)
 
 ### Estado Civil
 
 <img width="648" height="351" alt="image" src="https://github.com/user-attachments/assets/32799336-292f-46c1-989d-478d3e44632a" />
 <br><br>
 
-* Perfis não familiares parecem mais sujeitos à aceitação.
-* Casados e "juntos" representam mais da metade da base (65%), mas apresentam baixa taixa de aceitação.
+* Solteiros e viúvos convertem 2x mais que casados e juntos.
+* Casados e juntos concentram mais de 60% da base, reduzindo o sucesso da campanha.
+* Trade-off entre volume e aceitação nas categorias Solteiro/Viúvos e Casados/Juntos
 
+Resumos dos insights:
+* A aceitação da campanha é concentrada em clientes de maior valor e maior engajamento (alto gasto histórico, ticket médio alto e baixa recência).
+* Padrão consistente de trade-off entre volume e eficiência em todas as dimensões (canal, estado civil, gasto total e ticket médio)
+* A decisão deve ser orientada por lucro esperado por segmento.
 
 
