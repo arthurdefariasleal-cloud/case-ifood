@@ -1,4 +1,4 @@
-# case-ifood
+# Case iFood - Análise de Campanha de Marketing
 Otimização de Campanha de Marketing - Identificando clientes com maior potencial de retorno financeiro.
 
 # Estrutura do Projeto
