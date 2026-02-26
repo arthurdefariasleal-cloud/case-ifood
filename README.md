@@ -1,6 +1,41 @@
 # case-ifood
 Otimização de Campanha de Marketing - Identificando clientes com maior potencial de retorno financeiro.
 
+# Estrutura do Projeto
+
+```bash
+case-ifood/
+│
+├── README.md
+│
+├── data/
+│   ├── raw/
+│   │   └── ifood_df.xlsx
+│   │
+│   └── processed/
+│       └── analyze-case.xlsx
+│
+├── docs/
+│   ├── iFood_Data_Analyst_Case.pdf
+│   └── dictionary.png
+│
+└── images/
+    ├── eda/
+    │   ├── total_gasto.png
+    │   ├── recencia.png
+    │   ├── total_compras.png
+    │   ├── idade.png
+    │   ├── canal_compra.png
+    │   └── estado_civil.png
+    │
+    └── study/
+        ├── canal_x_aceitacao.png
+        ├── estado_civil_aceitacao.png
+        ├── recencia_x_aceitacao.png
+        ├── ticket_x_aceitacao.png
+        └── total_gasto_x_aceitacao.png
+```
+
 # Contexto
 Este projeto foi desenvolvido a partir de um case técnico aplicado para uma vaga de Analista de Dados do iFood, disponível publicamente na plataforma Kaggle.
 
